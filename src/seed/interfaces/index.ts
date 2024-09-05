@@ -1,1 +1,1 @@
-export * from './Poke-response.interface';
+export * from './poke-response.interface';
