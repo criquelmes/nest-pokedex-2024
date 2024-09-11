@@ -18,3 +18,9 @@
 - MongoDB
 - NestJS
 - Docker
+
+## Production build
+
+1. Crear el archivo **.env.prod** con las variables de entorno necesarias
+2. Crear la nueva imagen `docker-compose -f docker-compose.prod.yml --env-file .env.prod up --build
+`
